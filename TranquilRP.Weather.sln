@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4178A96D-D8C6-4464-ACB2-00F223E72AF8}"
+	ProjectSection(SolutionItems) = preProject
+		nfive.yml = nfive.yml
+	EndProjectSection
+EndProject
+Project("{70D96909-A08C-4A1C-A324-97B99E31703E}") = "Weather.Client", "Weather.Client\Weather.Client.csproj", "{1EEE7390-5F5D-4E4A-8F7E-28191F0BBB47}"
+EndProject
+Project("{70D96909-A08C-4A1C-A324-97B99E31703E}") = "Weather.Server", "Weather.Server\Weather.Server.csproj", "{629C8E0E-385B-4010-82E4-1875D8B32052}"
+EndProject
+Project("{70D96909-A08C-4A1C-A324-97B99E31703E}") = "Weather.Shared", "Weather.Shared\Weather.Shared.csproj", "{FB2ED2AF-DB2C-41AD-BFC9-B541350340BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EEE7390-5F5D-4E4A-8F7E-28191F0BBB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEE7390-5F5D-4E4A-8F7E-28191F0BBB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEE7390-5F5D-4E4A-8F7E-28191F0BBB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEE7390-5F5D-4E4A-8F7E-28191F0BBB47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{629C8E0E-385B-4010-82E4-1875D8B32052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629C8E0E-385B-4010-82E4-1875D8B32052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629C8E0E-385B-4010-82E4-1875D8B32052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629C8E0E-385B-4010-82E4-1875D8B32052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB2ED2AF-DB2C-41AD-BFC9-B541350340BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2ED2AF-DB2C-41AD-BFC9-B541350340BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2ED2AF-DB2C-41AD-BFC9-B541350340BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2ED2AF-DB2C-41AD-BFC9-B541350340BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

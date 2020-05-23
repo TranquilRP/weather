@@ -1,0 +1,17 @@
+name: TranquilRP/weather
+version: 1.0.0
+description: TranquilRP - Weathersync
+author: TranquilRP
+license: LGPL-3.0-or-later
+server:
+  main:
+  - TranquilRP.Weather.Server
+  include:
+  - TranquilRP.Weather.Shared
+client:
+  main:
+  - TranquilRP.Weather.Client
+  include:
+  - TranquilRP.Weather.Shared
+  files:
+  - Overlays/WeatherOverlay.html
