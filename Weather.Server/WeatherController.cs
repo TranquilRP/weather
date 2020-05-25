@@ -54,7 +54,7 @@ namespace TranquilRP.Weather.Server
 			WeatherTypes.Add(10, "SNOWLIGHT");
 
 			// set weather zones
-			WeatherZones.Add(0, new List<string> { "TERMINA", "ELYSIAN", "AIRP", "BANNING", "DESOL", "RANCHO", "STRAW", "CYPRE", "SANAND" }); // South LS
+			WeatherZones.Add(0, new List<string> { "TERMINA", "ELYSIAN", "AIRP", "BANNING", "DESOL", "RANCHO", "STRAW", "CYPRE", "SANAND", "DAVIS", "CHAMH" }); // South LS
 			WeatherZones.Add(1, new List<string> { "MURRI", "LMESA", "SKID", "LEGSQU", "TEXTI", "PBOX", "KOREAT" }); // Central LS
 			WeatherZones.Add(2, new List<string> { "MIRR", "VINE", "EAST_V", "DTVINE", "ALTA", "HAWICK", "DOWNT", "BURTON", "ROCKF", "MOVIE", "DELPE", "MORN", "RICHM", "GOLF", "WVINE", "HORS", "LACT", "LDAM" }); // North LS
 			WeatherZones.Add(3, new List<string> { "BEACH", "VESP", "VCANA", "DELBE", "PBLUFF" }); // LS Beaches
